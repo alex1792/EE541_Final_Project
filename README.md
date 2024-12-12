@@ -9,7 +9,7 @@ Dataset: [ASL_Alphabet](https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 Execution Environment: Google Colab, with Nvidia L4 GPU
 
-Github Link: 
+GitHub Link: https://github.com/alex1792/EE541_Final_Project
 
 ## Introduction
 This project aims to train and evaluate models for interpreting the American Sign Language (ASL) alphabet using the ASL Alphabet dataset. We trained and compared four different convolutional neural network models: ResNet18, ResNet34, ResNet50, and MobileNetV2. The dataset comprises 87,000 images across 29 classes, with 3,000 images per class.
