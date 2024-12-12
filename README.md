@@ -9,6 +9,8 @@ Dataset: [ASL_Alphabet](https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 Execution Environment: Google Colab, with Nvidia L4 GPU
 
+Github Link: 
+
 ## Introduction
 This project aims to train and evaluate models for interpreting the American Sign Language (ASL) alphabet using the ASL Alphabet dataset. We trained and compared four different convolutional neural network models: ResNet18, ResNet34, ResNet50, and MobileNetV2. The dataset comprises 87,000 images across 29 classes, with 3,000 images per class.
 
@@ -39,10 +41,17 @@ Our analysis of the four CNN models for ASL alphabet recognition yielded impress
 The high accuracy across all models suggests that the ASL alphabet recognition task can be effectively solved with various CNN architectures. However, the trade-off between accuracy and execution time becomes apparent, especially when considering deployment scenarios.
 ResNet18 emerges as the most balanced option, offering the best combination of high accuracy and low execution time. This makes it particularly suitable for real-time applications or scenarios with limited computational resources.
 
+As for space complexity, we have preserved 4 trained models, the following are sizes of different models:
+1. ResNet18: 42.8MB
+2. ResNet34: 81.4MB
+3. ResNet50: 90.2MB
+4. MobileNetV2: 8.9MB
+
 For a more comprehensive analysis, including detailed performance metrics, confusion matrices, and further insights, please refer to the EE_541_Final_Report.pdf.
 
 ## Future Work
-(Consider adding potential improvements and future research directions.)
+We expect that future systems will be able to capture gestures via a real-time camera, recognize them immediately, and display the results on the screen. This application allows people who do not understand ASL to quickly understand the meaning of ASL gestures and reduce communication barriers between the two parties.
+
 
 ## References
 [1] [Real-time Object Detection and Classification for ASL alphabet](https://cs231n.stanford.edu/reports/2022/pdfs/147.pdf)
